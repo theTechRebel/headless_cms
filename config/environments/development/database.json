@@ -2,17 +2,17 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "bookshelf",
+      "connector": "mongoose",
       "settings": {
-        "client": "postgres",
+        "database": "api_dapp_africa_cms",
         "host": "127.0.0.1",
-        "port": 5432,
-        "database": "strapi",
-        "username": "strapi",
-        "password": "strapi"
+        "srv": false,
+        "port": 27017,
+        "username": "thetechrebel",
+        "password": "123456789Ub"
       },
       "options": {
-        "ssl": false
+        "authenticationDatabase": "admin"
       }
     }
   }
