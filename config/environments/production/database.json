@@ -2,19 +2,17 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-mongoose",
+      "connector": "bookshelf",
       "settings": {
-        "client": "mongo",
-        "host": "localhost",
+        "client": "postgres",
+        "host": "127.0.0.1",
         "port": 27017,
-        "database": "cms",
-        "username": "thetechrebel",
-        "password": "123456789Ub"
+        "database": "strapi",
+        "username": "strapi",
+        "password": "strapi"
       },
       "options": {
-        "authenticationDatabase": "admin",
-        "ssl": false,
-        "minimize": true
+        "ssl": false
       }
     }
   }
