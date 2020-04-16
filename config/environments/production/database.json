@@ -7,12 +7,12 @@
         "client": "mongo",
         "host": "127.0.0.1",
         "port": 27017,
-        "database": "strapi",
-        "username": "strapi",
-        "password": "strapi"
+        "database": "cms",
+        "username": "thetechrebel",
+        "password": "123456789Ub"
       },
       "options": {
-        "authenticationDatabase": "strapi",
+        "authenticationDatabase": "admin",
         "ssl": false,
         "minimize": true
       }
