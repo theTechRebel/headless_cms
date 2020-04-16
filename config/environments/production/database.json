@@ -4,8 +4,8 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "host": "127.0.0.1",
         "database": "api_dapp_africa_cms",
+        "host": "127.0.0.1",
         "srv": false,
         "port": 27017,
         "username": "thetechrebel",
