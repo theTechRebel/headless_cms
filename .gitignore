@@ -58,7 +58,6 @@ $RECYCLE.BIN/
 *.swm
 *.out
 *.pid
-package-lock.json
 
 
 ############################
@@ -110,3 +109,4 @@ coverage
 exports
 .cache
 build
+package-lock.json
