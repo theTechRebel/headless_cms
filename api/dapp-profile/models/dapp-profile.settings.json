@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dapp_profiles",
+  "info": {
+    "name": "DappProfile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blockchain": {
+      "model": "blockchains",
+      "via": "dapp_profiles"
+    },
+    "category": {
+      "model": "category",
+      "via": "dapp_profiles"
+    },
+    "slide_show": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "social_links": {
+      "type": "json"
+    }
+  }
+}

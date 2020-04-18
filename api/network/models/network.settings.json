@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "networks",
+  "info": {
+    "name": "Network"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dexription": {
+      "type": "text"
+    }
+  }
+}
