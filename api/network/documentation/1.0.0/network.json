@@ -528,6 +528,47 @@
           },
           "dexription": {
             "type": "string"
+          },
+          "dapp_profiles": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "blockchain": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "slide_show": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "social_links": {
+                  "type": "object"
+                },
+                "network": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -541,6 +582,12 @@
           },
           "dexription": {
             "type": "string"
+          },
+          "dapp_profiles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }

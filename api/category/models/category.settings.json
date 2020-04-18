@@ -17,8 +17,8 @@
       "type": "text"
     },
     "dapp_profiles": {
-      "collection": "dapp-profile",
-      "via": "category"
+      "via": "category",
+      "collection": "dapp-profile"
     }
   }
 }

@@ -563,6 +563,32 @@
                 },
                 "social_links": {
                   "type": "object"
+                },
+                "network": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "networks": {
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "dexription": {
+                "type": "string"
+              },
+              "dapp_profiles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
                 }
               }
             }
@@ -585,6 +611,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "networks": {
+            "type": "string"
           }
         }
       }

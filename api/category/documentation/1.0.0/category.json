@@ -563,6 +563,9 @@
                 },
                 "social_links": {
                   "type": "object"
+                },
+                "network": {
+                  "type": "string"
                 }
               }
             }

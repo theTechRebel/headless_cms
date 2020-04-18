@@ -15,6 +15,10 @@
     },
     "dexription": {
       "type": "text"
+    },
+    "dapp_profiles": {
+      "via": "network",
+      "collection": "dapp-profile"
     }
   }
 }

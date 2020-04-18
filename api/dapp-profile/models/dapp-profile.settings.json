@@ -20,12 +20,12 @@
       "type": "text"
     },
     "blockchain": {
-      "model": "blockchains",
-      "via": "dapp_profiles"
+      "via": "dapp_profiles",
+      "model": "blockchains"
     },
     "category": {
-      "via": "dapp_profiles",
-      "model": "category"
+      "model": "category",
+      "via": "dapp_profiles"
     },
     "slide_show": {
       "collection": "file",
@@ -40,6 +40,10 @@
     },
     "social_links": {
       "type": "json"
+    },
+    "network": {
+      "model": "network",
+      "via": "dapp_profiles"
     }
   }
 }

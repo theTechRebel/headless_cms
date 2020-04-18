@@ -565,6 +565,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "networks": {
+                "type": "string"
               }
             }
           },
@@ -657,6 +660,29 @@
           },
           "social_links": {
             "type": "object"
+          },
+          "network": {
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "dexription": {
+                "type": "string"
+              },
+              "dapp_profiles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -682,6 +708,9 @@
           },
           "social_links": {
             "type": "object"
+          },
+          "network": {
+            "type": "string"
           }
         }
       }

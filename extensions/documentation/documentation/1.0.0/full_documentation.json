@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/18/2020 12:09:55 PM"
+    "x-generation-date": "04/18/2020 12:29:20 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4309,6 +4309,32 @@
                 },
                 "social_links": {
                   "type": "object"
+                },
+                "network": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "networks": {
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "dexription": {
+                "type": "string"
+              },
+              "dapp_profiles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
                 }
               }
             }
@@ -4331,6 +4357,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "networks": {
+            "type": "string"
           }
         }
       },
@@ -4383,6 +4412,9 @@
                 },
                 "social_links": {
                   "type": "object"
+                },
+                "network": {
+                  "type": "string"
                 }
               }
             }
@@ -4446,6 +4478,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "networks": {
+                "type": "string"
               }
             }
           },
@@ -4538,6 +4573,29 @@
           },
           "social_links": {
             "type": "object"
+          },
+          "network": {
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "dexription": {
+                "type": "string"
+              },
+              "dapp_profiles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -4563,6 +4621,9 @@
           },
           "social_links": {
             "type": "object"
+          },
+          "network": {
+            "type": "string"
           }
         }
       },
@@ -4580,6 +4641,47 @@
           },
           "dexription": {
             "type": "string"
+          },
+          "dapp_profiles": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "blockchain": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "slide_show": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "social_links": {
+                  "type": "object"
+                },
+                "network": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -4593,6 +4695,12 @@
           },
           "dexription": {
             "type": "string"
+          },
+          "dapp_profiles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       },

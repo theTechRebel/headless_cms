@@ -17,8 +17,11 @@
       "type": "text"
     },
     "dapp_profiles": {
-      "via": "blockchain",
-      "collection": "dapp-profile"
+      "collection": "dapp-profile",
+      "via": "blockchain"
+    },
+    "networks": {
+      "collection": "network"
     }
   }
 }
