@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dapp-profiles",
+      "handler": "dapp-profile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dapp-profiles/count",
+      "handler": "dapp-profile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dapp-profiles/:id",
+      "handler": "dapp-profile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dapp-profiles",
+      "handler": "dapp-profile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dapp-profiles/:id",
+      "handler": "dapp-profile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dapp-profiles/:id",
+      "handler": "dapp-profile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

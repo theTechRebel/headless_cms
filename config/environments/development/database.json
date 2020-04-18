@@ -8,11 +8,11 @@
         "host": "127.0.0.1",
         "srv": false,
         "port": 27017,
-        "username": "thetechrebel",
-        "password": "123456789Ub"
+        "username": "",
+        "password": ""
       },
       "options": {
-        "authenticationDatabase": "admin"
+        "authenticationDatabase": ""
       }
     }
   }
