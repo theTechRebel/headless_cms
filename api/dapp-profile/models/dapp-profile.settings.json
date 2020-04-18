@@ -24,8 +24,8 @@
       "via": "dapp_profiles"
     },
     "category": {
-      "model": "category",
-      "via": "dapp_profiles"
+      "via": "dapp_profiles",
+      "model": "category"
     },
     "slide_show": {
       "collection": "file",

@@ -14,11 +14,11 @@
       "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "dapp_profiles": {
-      "via": "category",
-      "collection": "dapp-profile"
+      "collection": "dapp-profile",
+      "via": "category"
     }
   }
 }
