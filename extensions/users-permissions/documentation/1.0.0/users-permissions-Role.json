@@ -608,6 +608,12 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "e_mkambo_products": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               }
             }

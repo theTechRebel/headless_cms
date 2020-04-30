@@ -1244,6 +1244,34 @@
                 }
               }
             }
+          },
+          "e_mkambo_products": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "images": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "user": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1281,6 +1309,12 @@
           },
           "role": {
             "type": "string"
+          },
+          "e_mkambo_products": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
