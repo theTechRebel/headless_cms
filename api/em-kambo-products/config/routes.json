@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/em-kambo-products",
+      "handler": "em-kambo-products.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/em-kambo-products/count",
+      "handler": "em-kambo-products.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/em-kambo-products/:id",
+      "handler": "em-kambo-products.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/em-kambo-products",
+      "handler": "em-kambo-products.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/em-kambo-products/:id",
+      "handler": "em-kambo-products.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/em-kambo-products/:id",
+      "handler": "em-kambo-products.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
